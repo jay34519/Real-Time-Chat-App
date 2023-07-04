@@ -1,0 +1,85 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(rgb(255, 255, 255),rgb(202, 65, 227));
+height: 100vh;
+}
+.header{
+  height: 10vh;
+  width: 100%;
+
+}.Nav{
+    display: inline-block;
+    padding-top:10px;
+font-size: xx-large;
+font-weight: 1000;
+justify-content: center;
+display: flex;
+font-family: Garamond;
+}
+.im{
+    box-sizing: cover;
+height: 10%;
+width: 4%;
+margin-bottom: 10px;
+padding: 0;
+
+display: inline-block;
+}.container{
+color: white;
+background-color: plum;
+margin:auto;
+height: 60vh;
+overflow-y: auto;
+
+    width: 100vh;
+}
+.message{
+    font-weight: bolder;
+    color: black;
+width: 25%;
+padding: 10px;
+margin: 17px 12px;
+border: 2px solid black;
+border-radius: 2px;
+}
+.left{
+float:left;
+clear: both;
+}
+.right{
+
+    float:right;
+    clear: both;
+}
+#send-c{
+text-align: center;
+
+}
+#messagein{
+width: 600px;
+height: 40px;
+font-family: Garamond;
+border: 2px solid black;
+font-size:20px ;
+border-radius: 20px;
+}
+
+#btn{
+font-family: Garamond;
+font-size: large;
+font-weight: bolder;
+height: 35px;
+width: 90px;
+background-color: black;
+color: rgb(255, 255, 255);
+border-radius: 10px;
+cursor: pointer;
+}
+#btn:hover{
+    background-color: green;
+}
